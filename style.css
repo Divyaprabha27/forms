@@ -1,0 +1,60 @@
+.forms {
+    border: 1px solid #000000;
+    width: 900px;
+    margin: 40px auto 0;
+    padding: 40px;
+}
+.forms h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.row {
+    margin: 0;
+}
+.forms label {
+    padding-bottom: 15px;
+}
+.forms input {
+    margin-bottom: 12px;
+}
+.forms .set {
+    width: 100%;
+}
+.forms button {
+    padding: 15px 20px;
+    margin-top: 15px;
+    background: #A52A2A;
+    border: none;
+    color: #fff;
+
+}
+.forms #submit {
+    float: right;
+}
+.forms button:hover {
+    background: #000000;
+}
+#infoList {
+    margin: 40px auto 0;
+}
+#infoList th,td {
+    padding: 15px;
+}
+
+@media screen and (max-width: 992px) {
+    .forms {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .col-6 {
+        width: 100%;
+    }
+    .forms button {
+        margin: 15px auto 0;
+        display: table;
+    }
+    .forms #submit {
+        float: none;
+    }
+}
